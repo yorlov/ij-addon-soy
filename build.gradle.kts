@@ -9,7 +9,6 @@ repositories {
 
 intellij {
     version.set("IU-LATEST-EAP-SNAPSHOT")
-    plugins.set(listOf("com.google.bamboo.id:1.6.5-203"))
 }
 
 java {

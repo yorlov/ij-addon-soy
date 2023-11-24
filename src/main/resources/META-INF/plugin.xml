@@ -9,4 +9,11 @@
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html on how to target different products -->
     <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.properties</depends>
+    <depends>JavaScript</depends>
+    <depends>com.google.bamboo.id</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <psi.referenceContributor implementation="it.orlov.intellij.SoyTemplateReferenceContributor" language="ClosureTemplate"/>
+    </extensions>
 </idea-plugin>

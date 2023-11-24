@@ -9,7 +9,7 @@ repositories {
 
 intellij {
     version.set("IU-LATEST-EAP-SNAPSHOT")
-    plugins.set(listOf("com.google.bamboo.id:1.6.5-203"))
+    plugins.set(listOf("com.google.bamboo.id:1.6.5-203", "JavaScript", "com.intellij.properties"))
 }
 
 java {
@@ -43,4 +43,8 @@ tasks {
             apiVersion = KOTLIN_API_VERSION
         }
     }
+}
+
+dependencies {
+    testImplementation(kotlin("stdlib"))
 }

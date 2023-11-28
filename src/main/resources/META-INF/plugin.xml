@@ -14,6 +14,6 @@
     <depends>com.google.bamboo.id</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <psi.referenceContributor implementation="it.orlov.intellij.SoyTemplateReferenceContributor" language="ClosureTemplate"/>
+        <psi.referenceContributor implementation="it.orlov.intellij.SoyTemplateReferenceContributor"/>
     </extensions>
 </idea-plugin>
